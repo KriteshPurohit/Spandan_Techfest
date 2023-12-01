@@ -10,8 +10,14 @@ import coding from "../ruleBooks/codingRule.pdf";
 import lfr from "../ruleBooks/lfrRule.pdf";
 import robosoccer from "../ruleBooks/robosoccerRule.pdf";
 import robosumo from "../ruleBooks/robosumoRule.pdf";
+import Cypherealm from "../Images/eventImages/Cypher Realm.jpg";
+import Exhibition from  "../Images/eventImages/Project Exhibition POSTER.png";
+  
+
+
 
 export const Eventdata = [
+
   {
     id: "1",
     name: "Line Following Robot",
@@ -19,12 +25,12 @@ export const Eventdata = [
     image: img1,
     tags: ["Robotics"],
     link: lfr,
-    branchEntry: "249/-",
-    branchFirst: "xxK",
-    branchSecond: "xxK",
-    CordinateName: "Ashmit Rana",
-    CordinateNumber: "+91-8791889622",
-    category: "Inter-Branch",
+    branchEntry: " 249/-",
+    branchFirst: " xxK",
+    branchSecond: " xxK",
+    CordinateName: " Ashmit Rana",
+    CordinateNumber: " +91-8791889622",
+    category: " Inter-Branch",
   },
   {
     id: "2",
@@ -33,12 +39,12 @@ export const Eventdata = [
     image: img4,
     tags: ["Robotics"],
     link: robosumo,
-    branchEntry: "499/-",
-    branchFirst: "xxK",
-    branchSecond: "xxK",
-    CordinateName: "Harsh Singh",
-    CordinateNumber: "+91-9149181145",
-    category: "Inter-Branch",
+    branchEntry: " 499/-",
+    branchFirst: " xxK",
+    branchSecond: " xxK",
+    CordinateName: " Harsh Singh",
+    CordinateNumber: " +91-9149181145",
+    category: " Inter-Branch",
   },
   {
     id: "3",
@@ -47,12 +53,12 @@ export const Eventdata = [
     image: img2,
     tags: ["Robotics"],
     link: robosoccer,
-    branchEntry: "499/-",
-    branchFirst: "xxK",
-    branchSecond: "xxK",
-    CordinateName: "Anubhav Dimri",
-    CordinateNumber: "+91-7817832297",
-    category: "Inter-Branch",
+    branchEntry: " 499/-",
+    branchFirst: " xxK",
+    branchSecond: " xxK",
+    CordinateName: " Anubhav Dimri",
+    CordinateNumber: " +91-7817832297",
+    category: " Inter-Branch",
   },
   {
     id: "4",
@@ -61,12 +67,12 @@ export const Eventdata = [
     image: img3,
     tags: ["Robotics"],
     link: offroading,
-    branchEntry: "499/-",
-    branchFirst: "xxK",
-    branchSecond: "xxK",
-    CordinateName: "Shivam Saklani",
-    CordinateNumber: "+91-7060571056",
-    category: "Inter-Branch",
+    branchEntry: " 499/-",
+    branchFirst: " xxK",
+    branchSecond: " xxK",
+    CordinateName: " Shivam Saklani",
+    CordinateNumber: " +91-7060571056",
+    category: " Inter-Branch",
   },
 
   {
@@ -76,14 +82,14 @@ export const Eventdata = [
     image: img5,
     tags: ["Coding"],
     link: coding,
-    branchEntry: "99/Head",
+    branchEntry: " 99/Head",
 
-    branchFirst: "1.5k",
-    branchSecond: "500",
+    branchFirst: " 1.5k",
+    branchSecond: " 500",
 
-    CordinateName: "Nutan Senwal",
-    CordinateNumber: "+91-8272890623",
-    category: "Multiple-Teams/Branch",
+    CordinateName: " Nutan Senwal",
+    CordinateNumber: " +91-8272890623",
+    category: " Multiple-Teams/Branch",
   },
   {
     id: "6",
@@ -92,11 +98,39 @@ export const Eventdata = [
     image: img6,
     tags: ["Robotics"],
     link: bridge,
-    branchEntry: "149/-",
-    branchFirst: "xxK",
-    branchSecond: "xxK",
-    CordinateName: "Akshit Chauhan",
-    CordinateNumber: "+91-6395035113",
-    category: "Inter-Branch",
+    branchEntry: " 149/-",
+    branchFirst: " xxK",
+    branchSecond: " xxK",
+    CordinateName: " Akshit Chauhan",
+    CordinateNumber: " +91-6395035113",
+    category: " Inter-Branch",
   },
+  {
+    id: "7",
+    name: "Cypher Realm",
+    desc: "Get ready to unleash your gaming prowess at Cypher Realm, the ultimate battleground awaiting you at our college's techfest! Step into a world where skill meets strategy, where champions are forged in pixels and code. Whether you're a master tactician in real-time strategy games, a lightning-fast shooter aficionado, or a puzzle-solving virtuoso, Cypher Realm invites all gamers to compete, conquer, and claim victory. Brace yourself for intense showdowns, adrenaline-pumping challenges, and the chance to etch your name in the halls of gaming glory. Join us and immerse yourself in an electrifying atmosphere where only the best emerge triumphant. Are you ready to dominate the Cypher Realm?",
+    image: Cypherealm,
+    tags: ["Gaming"],
+    link: bridge,
+    branchEntry: " 200/-",
+    branchFirst: " 5K",
+    branchSecond: " xxK",
+    CordinateName: " Akshay Tomar",
+    CordinateNumber: " +91-8449551027",
+    category: " Inter-Branch",
+  },
+  {
+    id: "8",
+    name: "Project Exhibition",
+    desc: "Welcome to Spandan's Innovation Odyssey—the beating heart of our techfest! Brace yourself for a mesmerizing journey through the Project Exhibition, where brilliance meets innovation. Get ready to witness a symphony of ideas and creations that transcend boundaries and redefine possibilities. From ingenious tech solutions to visionary prototypes, this exhibition is a testament to the indomitable spirit of creativity thriving within our college. Explore the corridors buzzing with excitement, where each project tells a story of dedication, passion, and relentless pursuit of excellence. Engage, interact, and be inspired by the innovative prowess on display. Join us at Spandan's Project Exhibition, where innovation knows no limits, and the future is shaped by the genius of today.",
+    image: Exhibition,
+    tags: ["Others"],
+    link: bridge,
+    branchEntry: " 99/-",
+    branchFirst: " 4K",
+    branchSecond: " xxK",
+    CordinateName: " Yash Singhal",
+    CordinateNumber: " +91-9520533117",
+    category: " Inter-Branch",
+  }
 ];
