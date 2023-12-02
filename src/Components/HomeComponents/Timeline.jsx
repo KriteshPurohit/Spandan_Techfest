@@ -18,19 +18,7 @@ function Timeline() {
         className="my-5 text-6xl text-white lg:text-9xl md:text-8xl sm:text-7xl"
         style={{ fontFamily: "Syne" }}
       >
-        TIMELINE
-      </div>
-      <div
-        className="text-5xl text-white lg:text-8xl md:text-7xl sm:text-6xl"
-        style={{ fontFamily: "Syne" }}
-      >
-        COMING
-      </div>
-      <div
-        className="text-5xl text-white lg:text-8xl md:text-7xl sm:text-6xl"
-        style={{ fontFamily: "Syne" }}
-      >
-        SOON
+        8 DECEMBER
       </div>
     </div>
   );
