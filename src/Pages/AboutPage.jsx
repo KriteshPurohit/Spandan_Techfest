@@ -2,7 +2,6 @@ import React from "react";
 import team from "../Images/team.png";
 import {
   DirectorGBPIET,
-  FacultyData,
   HeadData,
   
 } from "../data/facultyData";
@@ -54,9 +53,9 @@ const AboutPage = () => {
           mark on your technological journey.
         </p>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 flex items center justify-center space-x-">
         {DirectorGBPIET.map((item) => (
-          <div key={item.id} className="flex flex-col justify-center">
+          <div key={item.id} className=" justify-center">
             <div className="flex justify-center">
               <img
                 src={item.img}
@@ -98,7 +97,7 @@ const AboutPage = () => {
       <div className="flex justify-center">
         <img src={team} className="sm:w-96" />
       </div>
-      <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 gap-x-5 md:grid lg:grid-cols-3 lg:gap-x-56 lg:px-20">
+      {/* <div className="grid grid-cols-2 mt-10 sm:grid-cols-3 gap-x-5 md:grid lg:grid-cols-3 lg:gap-x-56 lg:px-20">
         {FacultyData.map((item) => (
           <div key={item.id} className="">
             <img
@@ -113,7 +112,7 @@ const AboutPage = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <div>
         <h2 className="mb-2 text-3xl font-semibold text-left md:text-3xl md:my-10">
           HEADS

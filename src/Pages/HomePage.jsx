@@ -17,12 +17,14 @@ function Homepage() {
         <Timeline />
       </div>
       {dataofHome.map((item) => (
-        <Box
-          heading={item.heading}
-          extraHeading={item.extraHeading}
-          data={item.data}
-          key={item.key}
-        />
+        <div key={item.id}>
+
+          <Box
+            heading={item.heading}
+            extraHeading={item.extraHeading}
+            data={item.data}
+          />
+        </div>
       ))}
 
       <div className="flex justify-center">

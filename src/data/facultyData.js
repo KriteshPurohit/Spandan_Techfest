@@ -16,29 +16,35 @@ export const DirectorGBPIET = [
     img: directorgbpiet,
     name: "DR. V.N. KALA",
     position: "Director GBPIET",
-  }
-]
-
-export const FacultyData = [
+  },
   {
-    id: 1,
+    id: 2,
     img: pritidimri,
     name: "DR. PRITI DIMRI",
     position: "Oic SAC",
   },
-  {
-    id: 2,
-    img: dummyimage,
-    name: "DR. ABC Singh",
-    position: "XYZ Position",
-  },
-  {
-    id: 3,
-    img: dummyimage,
-    name: "DR. ABC Singh",
-    position: "XYZ Position",
-  },
-];
+]
+
+// export const FacultyData = [
+//   {
+//     id: 1,
+//     img: pritidimri,
+//     name: "DR. PRITI DIMRI",
+//     position: "Oic SAC",
+//   },
+  // {
+  //   id: 2,
+  //   img: dummyimage,
+  //   name: "DR. ABC Singh",
+  //   position: "XYZ Position",
+  // },
+  // {
+  //   id: 3,
+  //   img: dummyimage,
+  //   name: "DR. ABC Singh",
+  //   position: "XYZ Position",
+  // },
+// ];
 
 export const HeadData = [
   {
@@ -47,12 +53,12 @@ export const HeadData = [
     name: "Chandra Prakash Pandey",
     position: "SAC Head",
   },
-  {
-    id: 2,
-    img: saif,
-    name: "Saif Malik",
-    position: "Spandan Head",
-  },
+  // {
+  //   id: 2,
+  //   img: saif,
+  //   name: "Saif Malik",
+  //   position: "Spandan Head",
+  // },
 ];
 
 // export const ManagerData = [
