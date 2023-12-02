@@ -3,6 +3,7 @@ import sphp from "../../Images/homeImages/nphp.jpeg";
 import "../../data/fonts.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import banner from "../../Images/homeImages/banner.png"
 
 function Timeline() {
     useEffect(() => {
@@ -11,14 +12,14 @@ function Timeline() {
   const innerHeight = 300;
   return (
     <div className="flex flex-col items-center justify-center ">
-      <div data-aos="fade-up">
+      <div data-aos="fade-up ">
         <img style={{ height: innerHeight }} src={sphp} />
       </div>
       <div
         className="my-5 text-6xl text-white lg:text-9xl md:text-8xl sm:text-7xl"
         style={{ fontFamily: "Syne" }}
       >
-        8th DECEMBER
+        <img src={banner} alt="" className="w-[650px] object-cover lg:w-[900px]"/>
       </div>
     </div>
   );
