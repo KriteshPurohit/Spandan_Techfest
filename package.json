@@ -30,5 +30,10 @@
     "react-router-dom": "^6.18.0",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "Techfest Spandan GBPIET",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

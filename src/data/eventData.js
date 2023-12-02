@@ -3,7 +3,7 @@ import img2 from "../Images/eventImages/ROBOSOCCER.png";
 import img3 from "../Images/eventImages/OffRoading.png";
 import img4 from "../Images/eventImages/RoboSumo.png";
 import img5 from "../Images/eventImages/Coding.png";
-import img6 from "../Images/eventImages/BRIDGE.jpg";
+import img6 from "../Images/eventImages/BRIDGE.png";
 import offroading from "../ruleBooks/offroadingRule.pdf";
 import bridge from "../ruleBooks/bridgeRule.pdf";
 import coding from "../ruleBooks/codingRule.pdf";
@@ -11,7 +11,7 @@ import lfr from "../ruleBooks/lfrRule.pdf";
 import robosoccer from "../ruleBooks/robosoccerRule.pdf";
 import robosumo from "../ruleBooks/robosumoRule.pdf";
 import Cypherealm from "../Images/eventImages/Cypher Realm.jpg";
-import Exhibition from  "../Images/eventImages/Project Exhibition POSTER.png";
+import Exhibition from  "../Images/eventImages/Exhibition.png";
   
 
 
@@ -31,6 +31,7 @@ export const Eventdata = [
     CordinateName: " Ashmit Rana",
     CordinateNumber: " +91-8791889622",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "2",
@@ -45,6 +46,7 @@ export const Eventdata = [
     CordinateName: " Harsh Singh",
     CordinateNumber: " +91-9149181145",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "3",
@@ -59,6 +61,7 @@ export const Eventdata = [
     CordinateName: " Anubhav Dimri",
     CordinateNumber: " +91-7817832297",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "4",
@@ -73,6 +76,7 @@ export const Eventdata = [
     CordinateName: " Shivam Saklani",
     CordinateNumber: " +91-7060571056",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
 
   {
@@ -90,13 +94,14 @@ export const Eventdata = [
     CordinateName: " Nutan Senwal",
     CordinateNumber: " +91-8272890623",
     category: " Multiple-Teams/Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "6",
     name: "Bridge It",
     desc: "Dive into the heart of engineering excitement with BridgeIt at Spandan Technology Festival! Gather your team and embark on an engaging journey to craft a sustainable bridge using limited materials.At Spandan, we're building more than just bridges – we're constructing unforgettable experiences! Spandan's BridgeIt: Building the Future, One Sustainable Span at a Time!",
     image: img6,
-    tags: ["Robotics"],
+    tags: ["Others"],
     link: bridge,
     branchEntry: " 149/-",
     branchFirst: " xxK",
@@ -104,6 +109,7 @@ export const Eventdata = [
     CordinateName: " Akshit Chauhan",
     CordinateNumber: " +91-6395035113",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "7",
@@ -113,11 +119,12 @@ export const Eventdata = [
     tags: ["Gaming"],
     link: bridge,
     branchEntry: " 200/-",
-    branchFirst: " 5K",
+    branchFirst: "Upto 5K",
     branchSecond: " xxK",
     CordinateName: " Akshay Tomar",
     CordinateNumber: " +91-8449551027",
-    category: " Inter-Branch",
+    category: "Open",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   },
   {
     id: "8",
@@ -132,5 +139,6 @@ export const Eventdata = [
     CordinateName: " Yash Singhal",
     CordinateNumber: " +91-9520533117",
     category: " Inter-Branch",
+    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
   }
 ];
