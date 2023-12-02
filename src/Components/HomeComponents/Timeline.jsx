@@ -18,7 +18,7 @@ function Timeline() {
         className="my-5 text-6xl text-white lg:text-9xl md:text-8xl sm:text-7xl"
         style={{ fontFamily: "Syne" }}
       >
-        8 DECEMBER
+        8th DECEMBER
       </div>
     </div>
   );
