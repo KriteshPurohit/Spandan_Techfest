@@ -25,7 +25,7 @@ const Menu = () => {
   return (
     <div
       style={backgroundStyle}
-      className="flex items-center justify-between w-full p-1 rounded-3xl md:pr-5 md:backdrop-filter md:backdrop-blur-3xl md:bg-opacity-100"
+      className="flex items-center justify-between w-full p-1 px-4 py-2 rounded-3xl md:pr-5  md:backdrop-filter md:backdrop-blur-3xl md:bg-opacity-100"
     >
       <div className="w-12 md:w-10">
         <img src={logo} alt="logo" />
