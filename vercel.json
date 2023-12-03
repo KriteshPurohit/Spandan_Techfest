@@ -9,7 +9,36 @@
       "dest": "/"
     },
     {
-      "src": "/Events/:id",
+      "src": "/Events/1",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/2",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/3",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/4",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/5",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/6",
+      "dest": "/"
+    },
+
+    {
+      "src": "/Events/7",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/8",
       "dest": "/"
     },
     {
