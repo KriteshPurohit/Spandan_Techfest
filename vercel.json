@@ -1,7 +1,20 @@
-{ "routes": [
+{
+  "routes": [
     {
-         "src": "/(.*)", 
-         "dest": "/" 
-        }
-    ] 
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/Events",
+      "dest": "/"
+    },
+    {
+      "src": "/Events/:id",
+      "dest": "/"
+    },
+    {
+      "src": "/AboutUs",
+      "dest": "/"
+    }
+  ]
 }
