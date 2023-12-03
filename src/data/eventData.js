@@ -11,13 +11,9 @@ import lfr from "../ruleBooks/lfrRule.pdf";
 import robosoccer from "../ruleBooks/robosoccerRule.pdf";
 import robosumo from "../ruleBooks/robosumoRule.pdf";
 import Cypherealm from "../Images/eventImages/Cypher Realm.jpg";
-import Exhibition from  "../Images/eventImages/Exhibition.png";
-  
-
-
+import Exhibition from "../Images/eventImages/Exhibition.png";
 
 export const Eventdata = [
-
   {
     id: "1",
     name: "Line Following Robot",
@@ -31,7 +27,8 @@ export const Eventdata = [
     CordinateName: " Ashmit Rana",
     CordinateNumber: " +91-8791889622",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "2",
@@ -46,7 +43,8 @@ export const Eventdata = [
     CordinateName: " Harsh Singh",
     CordinateNumber: " +91-9149181145",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "3",
@@ -61,7 +59,8 @@ export const Eventdata = [
     CordinateName: " Anubhav Dimri",
     CordinateNumber: " +91-7817832297",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "4",
@@ -76,7 +75,8 @@ export const Eventdata = [
     CordinateName: " Shivam Saklani",
     CordinateNumber: " +91-7060571056",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
 
   {
@@ -88,13 +88,14 @@ export const Eventdata = [
     link: coding,
     branchEntry: " 99/Head",
 
-    branchFirst: " 1.5k",
+    branchFirst: "Up to 1.5k",
     branchSecond: " 500",
 
     CordinateName: " Nutan Senwal",
     CordinateNumber: " +91-8272890623",
     category: " Multiple-Teams/Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "6",
@@ -109,7 +110,8 @@ export const Eventdata = [
     CordinateName: " Akshit Chauhan",
     CordinateNumber: " +91-6395035113",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "7",
@@ -124,21 +126,23 @@ export const Eventdata = [
     CordinateName: " Akshay Tomar",
     CordinateNumber: " +91-8449551027",
     category: "Open",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
   },
   {
     id: "8",
     name: "Project Exhibition",
-    desc: "Welcome to Spandan's Innovation Odyssey—the beating heart of our techfest! Brace yourself for a mesmerizing journey through the Project Exhibition, where brilliance meets innovation. Get ready to witness a symphony of ideas and creations that transcend boundaries and redefine possibilities. From ingenious tech solutions to visionary prototypes, this exhibition is a testament to the indomitable spirit of creativity thriving within our college. Explore the corridors buzzing with excitement, where each project tells a story of dedication, passion, and relentless pursuit of excellence. Engage, interact, and be inspired by the innovative prowess on display. Join us at Spandan's Project Exhibition, where innovation knows no limits, and the future is shaped by the genius of today.",
+    desc: "Welcome to Spandan's Innovation Odyssey—the beating heart of our techfest! Brace yourself for a mesmerizing journey through the Project Exhibition, where brilliance meets innovation. Get ready to witness a symphony of ideas and creations that transcend boundaries and redefine possibilities. From ingenious tech solutions to visionary prototypes, this exhibition is a testament to the indomitable spirit of creativity thriving within our college.",
     image: Exhibition,
     tags: ["Others"],
     link: bridge,
     branchEntry: " 99/-",
-    branchFirst: " 4K",
+    branchFirst: " Up to 4K",
     branchSecond: " xxK",
     CordinateName: " Yash Singhal",
     CordinateNumber: " +91-9520533117",
     category: " Inter-Branch",
-    register:"https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform"
-  }
+    register:
+      "https://docs.google.com/forms/d/e/1FAIpQLSePdOqNgd5e9IBx2fqbLVqQGoQLxkQ7sfMf8iF5WPKb1_7Yqw/viewform",
+  },
 ];
