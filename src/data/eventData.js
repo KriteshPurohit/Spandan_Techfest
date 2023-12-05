@@ -8,7 +8,7 @@ import cypherealm from "../ruleBooks/Cypherealm rulebook.pdf";
 import offroading from "../ruleBooks/offroadingRule.pdf";
 import bridge from "../ruleBooks/bridgeRule.pdf";
 import coding from "../ruleBooks/codingRule.pdf";
-import lfr from "../ruleBooks/lfrRule.pdf";
+import lfr from "../ruleBooks/Line Following Robot_2.pdf";
 import robosoccer from "../ruleBooks/robosoccerRule.pdf";
 import robosumo from "../ruleBooks/robosumoRule.pdf";
 import Cypherealm from "../Images/eventImages/Cypher Realm.jpg";
