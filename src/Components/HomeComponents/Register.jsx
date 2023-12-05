@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import background1 from "../../Images/homeImages/homepage-bg.png";
 import down from "../../Images/homeImages/arrowdown.png";
 import "../../data/fonts.css";
@@ -11,9 +11,9 @@ function Registerpage() {
     backgroundImage: `url(${background1})`,
     backgroundSize: "cover",
   };
-useEffect(() => {
-  Aos.init({ duration: 2000 });
-}, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div style={style} className="flex flex-col items-center justify-center ">
@@ -56,17 +56,22 @@ useEffect(() => {
           "Feel The Pulse of Innovation"
         </div>
         <div
-          className="text-white lg:text-xl md:text-3xl sm:text=2xl text-base my-3 "
+          className="text-white lg:text-xl md:text-3xl sm:text=2xl text-base mt-3 "
           data-aos="fade-up"
         >
           <button
-            className="hover:text-2xl ease-out duration-200 px-8 py-2 font-bold text-yellow-400 rounded-lg bg-[#0b274a]  my-7 lg:my-5"
+            className="hover:text-2xl ease-out duration-200 px-8 py-2 font-bold text-yellow-400 rounded-lg bg-[#0b274a]  mt-7 lg:mt-5"
             style={{ fontFamily: "Syne" }}
           >
             <Link to={"/Events"}>REGISTER NOW</Link>
           </button>
         </div>
-        <div className="animate-bounce" >
+        <div className="text-white  mb-8 mt-4 text-[17px]" data-aos="fade-up">
+          <p style={{ fontFamily: "Syne" }}>
+            Last Date Of Registration is 6 December
+          </p>
+        </div>
+        <div className="animate-bounce ">
           <img src={down} alt="down image logo" />
         </div>
       </div>
