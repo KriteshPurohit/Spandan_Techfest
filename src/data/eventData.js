@@ -117,7 +117,7 @@ export const Eventdata = [
   {
     id: "7",
     name: "Cypher Realm",
-    desc: "Get ready to unleash your gaming prowess at Cypher Realm, the ultimate battleground awaiting you at our college's techfest! Step into a world where skill meets strategy, where champions are forged in pixels and code. Whether you're a master tactician in real-time strategy games, a lightning-fast shooter aficionado, or a puzzle-solving virtuoso, Cypher Realm invites all gamers to compete, conquer, and claim victory. Brace yourself for intense showdowns, adrenaline-pumping challenges, and the chance to etch your name in the halls of gaming glory. Join us and immerse yourself in an electrifying atmosphere where only the best emerge triumphant. Are you ready to dominate the Cypher Realm?",
+    desc: "Get ready to unleash your gaming prowess at Cypher Realm, the ultimate battleground awaiting you at our college's techfest! Step into a world where skill meets strategy, where champions are forged in pixels and code.Brace yourself for intense showdowns, adrenaline-pumping challenges, and the chance to etch your name in the halls of gaming glory. Join us and immerse yourself in an electrifying atmosphere where only the best emerge triumphant. Are you ready to dominate the Cypher Realm?",
     image: Cypherealm,
     tags: ["Gaming"],
     link: cypherealm,
