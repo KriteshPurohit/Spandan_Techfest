@@ -4,7 +4,7 @@ import img3 from "../Images/eventImages/OffRoading.png";
 import img4 from "../Images/eventImages/RoboSumo.png";
 import img5 from "../Images/eventImages/Coding.png";
 import img6 from "../Images/eventImages/BRIDGE.png";
-import cypherealm from "../ruleBooks/Cypherealm rulebook.pdf";
+import cypherealm from "../ruleBooks/BGMI.pdf";
 import offroading from "../ruleBooks/offroadingRule.pdf";
 import bridge from "../ruleBooks/bridgeRule.pdf";
 import coding from "../ruleBooks/codingRule.pdf";
