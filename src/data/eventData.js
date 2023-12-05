@@ -136,7 +136,7 @@ export const Eventdata = [
     desc: "Welcome to Spandan's Innovation Odyssey—the beating heart of our techfest! Brace yourself for a mesmerizing journey through the Project Exhibition, where brilliance meets innovation. Get ready to witness a symphony of ideas and creations that transcend boundaries and redefine possibilities. From ingenious tech solutions to visionary prototypes, this exhibition is a testament to the indomitable spirit of creativity thriving within our college.",
     image: Exhibition,
     tags: ["Others"],
-    link: bridge,
+    link: "",
     branchEntry: " 99/-",
     branchFirst: " Up to 4K",
     branchSecond: " xxK",

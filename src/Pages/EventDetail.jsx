@@ -24,16 +24,18 @@ const EventDetail = () => {
           >
             {eventDetail.name}
           </h1>
-          <span className="relative flex items-center justify-center px-2 sm:px-5 py-0 overflow-hidden text-xl font-normal leading-none bg-white rounded-md cursor-pointer h-11 w-max text-slate-700  before:absolute before:left-0 before:w-full before:h-full before:bg-yellow-400 before:z-[0] before:translate-x-[-100%] hover:before:translate-x-[0] before:transition-all before:duration-300 sm:mr-5 ">
-            <a
-              href={eventDetail.link}
-              download={eventDetail.name}
-              target="_blank"
-              className="relative z-[1] transition-all duration-500 "
-            >
-              RuleBook
-            </a>
-          </span>
+          {eventDetail.link && (
+            <span className="relative flex items-center justify-center px-2 sm:px-5 py-0 overflow-hidden text-xl font-normal leading-none bg-white rounded-md cursor-pointer h-11 w-max text-slate-700  before:absolute before:left-0 before:w-full before:h-full before:bg-yellow-400 before:z-[0] before:translate-x-[-100%] hover:before:translate-x-[0] before:transition-all before:duration-300 sm:mr-5 ">
+              <a
+                href={eventDetail.link}
+                download={eventDetail.name}
+                target="_blank"
+                className="relative z-[1] transition-all duration-500 "
+              >
+                RuleBook
+              </a>
+            </span>
+          )}
         </div>
 
         <p
